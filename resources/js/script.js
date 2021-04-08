@@ -1,6 +1,7 @@
 function changeTheme() {
     if (document.body.style.color==="seashell"){
         document.body.style.color= "black";
+        document.body.querySelector(".link").style.color="black";
         document.body.style.backgroundColor="seashell";
         document.body.querySelector(".li1").style.color="black";
         document.body.querySelector(".li2").style.color="black";
@@ -9,6 +10,7 @@ function changeTheme() {
     } else {
         document.body.style.color = "seashell";
         document.body.style.backgroundColor="#171717";
+        document.body.querySelector(".link").style.color="seashell";
         document.body.querySelector(".li1").style.color="seashell";
         document.body.querySelector(".li2").style.color="seashell";
         document.body.querySelector(".li3").style.color="seashell";
